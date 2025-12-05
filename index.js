@@ -1,23 +1,19 @@
+import cowsay from "cowsay";
+import Article from "./Article.mjs";
+import {mult, del} from "./maths.mjs"
+
+console.log(cowsay.say({text: 'qwerty'}));
+
+
 console.log('hi from node!');
 
 const num1 = 5;
 const num2 = 8;
 
-const mult = (n1,b2)=> n1 * num2;
-
-console.log(num1+num2);
+console.log(sum(num1, num2));
 console.log(mult(4,9));
 
-class Article{
-    constructor(content){
-       this.content = content;
-
-    }
-    render(){
-        return this.content
-    }
-}
-const newArticle = new Article('Content for article')
+const newArticle = new Article('Content for article');
 console.log(newArticle.render());
 
 
