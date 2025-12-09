@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "types": "module",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/shapel3/node-test/issues"
   },
-  "homepage": "https://github.com/shapel3/node-test#readme",
-  "dependencies": {
-    "cowsay": "^1.6.0"
-  }
+  "homepage": "https://github.com/shapel3/node-test#readme"
 }
